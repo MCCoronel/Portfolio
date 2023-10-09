@@ -1,0 +1,89 @@
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import myImg from "../../Assets/avatar.svg";
+import Tilt from "react-parallax-tilt";
+import {
+  AiFillGithub,
+  AiOutlineTwitter,
+  AiFillInstagram,
+} from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
+import {Link} from 'react-router-dom';
+
+function Home2() {
+  return (
+    <Container fluid className="home-about-section" id="about">
+      <Container>
+        <Row>
+        <Col md={4} className="myAvtar">
+            <Tilt>
+              <img src={myImg} className="img-fluid" alt="avatar" />
+            </Tilt>
+          </Col>
+          <Col md={8} className="home-about-description">
+            <h1 style={{ fontSize: "2.6em" }}>
+              PERMITANME <span className="purple"> PRESENTARME </span> <span className="wave" role="img" aria-labelledby="wave">
+                  👋🏻
+                </span>
+            </h1>
+            <p className="home-about-body">
+              A pocas materias de recibirme como ingenieria decidi incursionar en el mundo de la tecnologia, un mundo que hace mucho me llamaba la atencion, principalmente el mundo de la programacion y analisis de datos.
+              <br />
+              <br />Domino tecnologias como
+              <i>
+                <b className="purple"> Javascript, Node.js, Express, SQL, React, HTML, CSS</b>, entre otros que se encuentran en la seccion <Link to={"/about"} className="purple">About</Link>
+              </i>
+              <br />
+              <br />
+              Mi campo de interes principalmente es el area de &nbsp;
+              <i>
+                <b className="purple">
+                  Desarrollo Backend y manejo de Bases de datos
+                </b>
+              </i>
+              <br />
+              <br />
+              Soy una persona <b className="purple">curiosa</b> y con <b className="purple">gran facilidad de adaptación</b> lo cual me lleva a especializarme cada vez más en este campo de la tecnología.
+              <br />
+              <br />
+              <p>
+              Creo que mi <b className="purple"> pasión por el constante aprendizaje</b> puede contribuir significativamente en <b className="purple">cualquier entorno</b>.
+              </p>
+            </p>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={12} className="home-about-social">
+            <h1>FIND ME ON</h1>
+            <p>
+              Feel free to <span className="purple">connect </span>with me
+            </p>
+            <ul className="home-about-social-links">
+              <li className="social-icons">
+                <a
+                  href="https://github.com/MCCoronel/MCCORONEL"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillGithub />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/mcelestecrnl"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </li>
+            </ul>
+          </Col>
+        </Row>
+      </Container>
+    </Container>
+  );
+}
+export default Home2;
