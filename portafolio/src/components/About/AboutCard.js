@@ -10,9 +10,9 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Bienvenido a esta seccion, me llamo <span className="purple"> Maria Celeste </span>
             soy de <span className="purple"> Santiago del Estero, Argentina.</span>
-            <br /> Como lo mencione anteriormente, soy estudiante avanzada de Ingenieria en Alimentos, me falta un par de materias y la tesis.
+            <br /> Soy una estudiante avanzada de Ingenieria en Alimentos, me falta un par de materias y la tesis.
             <br />
-            Actualmente estoy en busca de <span className="purple">mi primer trabajo</span> en el <span className="purple">mundo IT</span>, mientras tanto, sigo capacitandome tanto en <span className="purple">Data Analytics</span> gracias una beca de <span className="purple">Cerveceria Quilmes y Udemy</span> en la cual fui seleccionada y en distintas tecnologias relacionadas al desarrollo <span className="purple">Backend</span>.
+            Actualmente estoy en busca de <span className="purple">mi primer trabajo</span> en el <span className="purple">mundo IT</span>, mientras tanto, sigo capacitandome tanto en <span className="purple">Data Analytics</span>, gracias una beca de <span className="purple">Cerveceria Quilmes y Udemy</span> en la cual fui seleccionada, y en distintas tecnologias relacionadas al desarrollo <span className="purple">Backend</span>.
             <br />
             <br />
             Además de codear, ¡hay otras actividades que me encanta hacer!

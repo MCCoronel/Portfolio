@@ -86,7 +86,7 @@ button:focus {
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
-  font-size: 1.2rem !important;
+  font-size: 1.7rem !important;
 }
 
 .navbar-toggler {
@@ -261,8 +261,8 @@ button:focus {
 
 .home-section {
   position: relative;
-  z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  z-index: 0;
+  background-color: rgba(252, 173, 186, 0.346) !important;
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -312,7 +312,7 @@ button:focus {
 
 .myAvtar {
   justify-content: center !important;
-  padding-top: 9em !important;
+  padding-top: 20em !important;
 }
 
 @media (max-width: 767px) {
@@ -322,10 +322,22 @@ button:focus {
   }
 }
 
+.img-grande {
+  width: 700px; /* Ajusta el ancho según sea necesario */
+  height: 700px; /* Ajusta el alto según sea necesario */
+  border-radius: 50%;
+}
+
 .home-about-section {
   position: relative;
-  padding-bottom: 70px !important;
+  padding-bottom: 30px !important;
   padding-top: 70px !important;
+}
+
+.home-about-section2 {
+  position: relative;
+  padding-bottom: 70px !important;
+  padding-top: 2px !important;
 }
 
 .home-about-description {
@@ -337,7 +349,7 @@ button:focus {
 
 .home-about-body {
   padding-top: 50px;
-  font-size: 1.2em !important;
+  font-size: 1.5em !important;
   text-align: left;
 }
 
@@ -348,34 +360,31 @@ button:focus {
 }
 
 .home-about-social-links {
-  justify-content: center !important;
-  padding-top: 15px !important;
-  display: inline-block !important;
-  position: relative !important;
-  padding-inline-start: 0 !important;
+  text-align: center;
+  padding-top: 15px;
+  display: flex;
+  justify-content: center; /* Centra los elementos horizontalmente */
+  list-style: none; /* Elimina las viñetas de la lista */
 }
 
 .home-social-icons {
-  position: relative !important;
-  display: inline-block !important;
-  width: 40px !important;
-  height: 40px !important;
-  text-align: center !important;
-  font-size: 1.2em !important;
-  line-height: 2em !important;
-  background: rgba(255, 255, 255, 0.972) !important;
-  border-radius: 50% !important;
-  transition: 0.5s !important;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  font-size: 4em;
+  background: rgba(255, 255, 255, 0.972);
+  border-radius: 50%;
+  transition: 0.5s;
+  display: flex;
+  align-items: center; /* Centra verticalmente el contenido del icono */
+  justify-content: center; /* Centra horizontalmente el contenido del icono */
+  position: relative;
+  color: #700c86;
 }
 
 .home-social-icons::before {
   content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
+  position:absolute !important;
   background: #68187a;
   transition: 0.5s;
   transform: scale(0.9);
@@ -385,29 +394,34 @@ button:focus {
 .home-social-icons:hover::before {
   transform: scale(1.1);
   box-shadow: 0 0 15px #801f95;
+
 }
 
 .home-social-icons:hover {
   color: #87209e;
-  box-shadow: 0 0 5px #87209e;
+  box-shadow: 0 0 35px #e186f5;
   text-shadow: 0 0 2px #87209e;
+  width: 90px;
+  height: 90px;
 }
 
 .social-icons {
-  display: inline-block !important;
+  display: inline-flex !important;
   padding-right: 15px;
   padding-left: 15px;
+  margin: 0 15
 }
 
 .icon-colour {
   color: #700c86 !important;
+  
 }
 
 /* --------- */
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(10, 4, 22);
+  background-color: rgba(58, 2, 84, 0.729);
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
@@ -453,7 +467,6 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
 }
 
 .project-card {
@@ -611,7 +624,6 @@ button:focus {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
   color: white !important;
 }
 

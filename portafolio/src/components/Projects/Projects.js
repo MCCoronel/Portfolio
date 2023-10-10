@@ -11,7 +11,7 @@ import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
-    <Container fluid className="project-section">
+    <Container fluid className="project-section background">
       <Particle />
       <Container>
         <h1 className="project-heading">
@@ -39,7 +39,7 @@ function Projects() {
               title="Oh My Dog"
               description="Aplicación que tenía como objetivo acceder a un registro de razas, así como también permitir el registro, a través de un formulario, de razas nuevas por parte del cliente. El cliente podrá, filtrar, combinar filtros, ordenar y editar/eliminar sus registros."
               ghLink="https://github.com/MCCoronel/Backend-DOGS"
-              demoLink="https://blogs.soumya-jit.tech/"
+              demoLink="https://www.linkedin.com/feed/update/urn:li:activity:7089781063048163328/"
             />
           </Col>
 
@@ -58,9 +58,9 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
+              title="Portfolio"
+              description="Diseno y desarrollo de mi portfolio personal, contiene secciones como Home, about, proyectos y descarga del CV"
+              ghLink="https://github.com/MCCoronel/Portfolio"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>

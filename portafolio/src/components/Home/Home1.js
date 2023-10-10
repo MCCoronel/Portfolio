@@ -6,7 +6,7 @@ import Type from './Type';
 
 function Home1() {
   return (
-    <Container fluid className='home-about-section' id='home'>
+    <Container fluid className='home-about-section home-section' id='home'>
       <Particle />
       <Container className='home-content'>
         <Row>
