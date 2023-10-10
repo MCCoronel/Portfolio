@@ -9,6 +9,7 @@ import Toolstack from "./Toolstack";
 
 function About() {
   return (
+    <section id="about">
     <Container fluid className="about-section">
       <Particle />
       <Container>
@@ -48,6 +49,7 @@ function About() {
         <Github />
       </Container>
     </Container>
+    </section>
   );
 }
 
