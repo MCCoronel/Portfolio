@@ -4,12 +4,12 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import code2 from "../../Assets/code2.png";
 import Toolstack from "./Toolstack";
 
 function About() {
   return (
-    <section id="about">
+    <section id="about" className="background">
     <Container fluid className="about-section">
       <Particle />
       <Container>
@@ -23,7 +23,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+              Un poco mas <strong className="purple">sobre mi</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -32,7 +32,7 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img src={code2} alt="about" className="img-fluid" />
           </Col>
         </Row>
         <h1 className="project-heading">

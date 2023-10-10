@@ -210,7 +210,7 @@ button:focus {
 /* --------- */
 
 .background{
-  background-color: #630678 !important;
+  background-color: #530565 !important;
 }
 
 .wave {
@@ -286,12 +286,12 @@ button:focus {
 }
 
 .main-name {
-  color: #05edaf;
+  color: #f8db69;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #f9a0da !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
@@ -551,7 +551,7 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+
   color: white !important;
 }
 

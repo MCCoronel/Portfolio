@@ -15,20 +15,20 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+           <strong className="purple">Proyectos </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+        Aquí hay algunos proyectos en los que he trabajado recientemente.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="BookBuster"
+              description="Bookbuster es una librería en la cual puedes registrarte como usuario para poder comprar libros tanto nuevos como usados, audiolibros y e-pub. Además la idea principal es que pueda generarse una comunidad entre los apacionados por la lectura, por lo que se puede dejar reseñas de los libros, dejar alguna cita que como lector te haya marcado o gustado y a su vez puedes dejar comentarios y likes en las reseñas y citas de otros lectores. También puedes guardar tus libros favoritos o por leer en distintas estanterías."
+              ghLink="https://github.com/bookbuster-ar/web-app-backend"
+              demoLink="https://bookbuster-ar.vercel.app/"
             />
           </Col>
 
@@ -36,9 +36,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="Oh My Dog"
+              description="Aplicación que tenía como objetivo acceder a un registro de razas, así como también permitir el registro, a través de un formulario, de razas nuevas por parte del cliente. El cliente podrá, filtrar, combinar filtros, ordenar y editar/eliminar sus registros."
+              ghLink="https://github.com/MCCoronel/Backend-DOGS"
               demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
@@ -47,8 +47,8 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              title="Rick and Morty"
+              description="Diseñe y desarrolle una App, donde su objetivo es interactuar con las tarjetas de distintos personajes, que permitían acceder a su información, guardar como favoritos, búsquedas personalizadas, filtrar y ordenar."
               ghLink="https://github.com/soumyajit4419/Editor.io"
               demoLink="https://editor.soumya-jit.tech/"              
             />
@@ -86,7 +86,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col> */}
+          </Col>
         </Row>
       </Container>
     </Container>

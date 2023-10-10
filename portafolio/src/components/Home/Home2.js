@@ -3,9 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Me7 from "../../Assets/Me7.png";
 import Tilt from "react-parallax-tilt";
 import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiFillGithub
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import {Link} from 'react-router-dom';
@@ -27,7 +25,7 @@ function Home2() {
                 </span>
             </h1>
             <p className="home-about-body">
-              A pocas materias de recibirme como ingenieria decidi incursionar en el mundo de la tecnologia, un mundo que hace mucho me llamaba la atencion, principalmente el mundo de la programacion y analisis de datos.
+              A pocas materias de recibirme como ingenieria, a medidados del 2022, decidi incursionar en el mundo de la tecnologia de forma autodidacta, un mundo que hace mucho me llamaba la atencion, principalmente el mundo de la programacion y analisis de datos.En el 2023, amplié aún más mis conocimientos al unirme a Henry, donde cursé un programa de estudio intensivo de 4 meses que me permitió adquirir habilidades avanzadas en desarrollo web y otras disciplinas relacionadas con la tecnología.
               <br />
               <br />Domino tecnologias como
               <i>
@@ -54,9 +52,9 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>Encuentrame en</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              No dudes en <span className="purple">conectar </span>conmigo
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">

@@ -8,33 +8,29 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Coronel, Maria Celeste </span>
-            from <span className="purple"> Santiago del Estero, Argentina.</span>
-            <br /> I am a final year student pursuing an Integrated MSc (IMSc)
-            in Maths and Computing at BIT Mesra.
+            Bienvenido a esta seccion, me llamo <span className="purple"> Maria Celeste </span>
+            soy de <span className="purple"> Santiago del Estero, Argentina.</span>
+            <br /> Como lo mencione anteriormente, soy estudiante avanzada de Ingenieria en Alimentos, me falta un par de materias y la tesis.
             <br />
-            Additionally, I am currently employed as a software developer at
-            Juspay.
+            Actualmente estoy en busca de <span className="purple">mi primer trabajo</span> en el <span className="purple">mundo IT</span>, mientras tanto, sigo capacitandome tanto en <span className="purple">Data Analytics</span> gracias una beca de <span className="purple">Cerveceria Quilmes y Udemy</span> en la cual fui seleccionada y en distintas tecnologias relacionadas al desarrollo <span className="purple">Backend</span>.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Además de codear, ¡hay otras actividades que me encanta hacer!
           </p>
           <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
+          <li className="about-activity">
+              <ImPointRight /> Conocer nuevas personas, me encanta el trabajo en equipo
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Distintos deportes
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Viajar
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Aprender cosas nuevas constantemente
             </li>
           </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
         </blockquote>
       </Card.Body>
     </Card>
