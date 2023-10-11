@@ -28,10 +28,10 @@ function Home2() {
               </span>
             </h1>
             <p className='home-about-body'>
-              A medidados del 2022, decidi incursionar en el mundo de la tecnologia de forma
+              A medidados del <span className='purple'> 2022</span>, decidi incursionar en el mundo de la tecnologia de forma
               autodidacta, un mundo que hace mucho me llamaba la atencion,
-              principalmente el mundo de la programacion y analisis de datos. En
-              el 2023, amplié aún más mis conocimientos al unirme a Henry, donde
+              principalmente el mundo de la <span className='purple'>programacion y analisis de datos</span>. En
+              el <span className='purple'>2023</span>, amplié aún más mis conocimientos al unirme a Henry, donde
               cursé un programa de estudio intensivo de 4 meses que me permitió
               adquirir habilidades avanzadas en desarrollo web y otras
               disciplinas relacionadas con la tecnología.
@@ -46,7 +46,9 @@ function Home2() {
                 , entre otros que se encuentran en la seccion{' '}
                 <Link to={'/about'} className='purple'>
                   Sobre mi
-                </Link>
+                </Link> o adjuntadas en mi <Link to={'/CV'} className='purple'>
+                  CV
+                </Link> 
               </i>
               <br />
               <br />
@@ -75,10 +77,7 @@ function Home2() {
         </Row>
         <Row>
           <Col md={15} className='home-about-social'>
-            <h1 style={{ fontSize: '2.5em' }}>Encuentrame en</h1>
-            <p style={{ fontSize: '1.2em' }}>
-              No dudes en <span className='purple'>conectar </span>conmigo
-            </p>
+            <h1 style={{ fontSize: '2.5em' }}>Encuentrame en :</h1>
             <ul className='home-about-social-links'>
               <li className='social-icons'>
                 <a
@@ -121,6 +120,9 @@ function Home2() {
                 </a>
               </li>
             </ul>
+            <p style={{ fontSize: '1.2em' }}>
+              No dudes en <span className='purple'>conectar </span>conmigo
+            </p>
           </Col>
         </Row>
       </Container>

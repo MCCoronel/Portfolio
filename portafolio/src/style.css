@@ -86,7 +86,7 @@ button:focus {
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
-  font-size: 1.7rem !important;
+  font-size: 1.3rem !important;
 }
 
 .navbar-toggler {
@@ -368,10 +368,10 @@ button:focus {
 }
 
 .home-social-icons {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   text-align: center;
-  font-size: 4em;
+  font-size: 3em;
   background: rgba(255, 255, 255, 0.972);
   border-radius: 50%;
   transition: 0.5s;
@@ -401,8 +401,8 @@ button:focus {
   color: #87209e;
   box-shadow: 0 0 35px #e186f5;
   text-shadow: 0 0 2px #87209e;
-  width: 90px;
-  height: 90px;
+  width: 75px;
+  height: 75px;
 }
 
 .social-icons {
@@ -427,6 +427,7 @@ button:focus {
   padding-bottom: 8px !important ;
 }
 .footer-copywright {
+  padding-top: 10px !important;
   text-align: center !important;
 }
 
