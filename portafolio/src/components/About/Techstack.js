@@ -2,7 +2,7 @@ import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { FaHtml5, FaCss3Alt } from 'react-icons/fa';
 import { DiJavascript1, DiReact, DiNodejs } from 'react-icons/di';
-import { SiFirebase, SiPostgresql , SiMysql, SiRedux} from 'react-icons/si';
+import { SiPostgresql , SiMysql, SiRedux} from 'react-icons/si';
 
 function Techstack() {
   return (
