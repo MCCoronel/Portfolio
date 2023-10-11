@@ -47,8 +47,8 @@ function Projects() {
               isBlog={false}
               title="Rick and Morty"
               description="Diseñe y desarrolle una App, donde su objetivo es interactuar con las tarjetas de distintos personajes, que permitían acceder a su información, guardar como favoritos, búsquedas personalizadas, filtrar y ordenar."
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              ghLink="https://github.com/MCCoronel/rym"
+              // demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
           <Col md={4} className="project-card">
@@ -58,7 +58,7 @@ function Projects() {
               title="Portfolio personal"
               description="Este es mi portfolio personal de trabajo, aquí encontrarás ejemplos de mi trabajo, proyectos que he construido desde cero, un poco sobre mi y el stack tecnologico que manejo."
               ghLink="https://github.com/MCCoronel/Portfolio"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              demoLink="https://portfolio-mccoronel.vercel.app/project"     
             />
           </Col>
         </Row>
