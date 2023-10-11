@@ -24,7 +24,7 @@ function Projects() {
               imgPath={BookBuster}
               isBlog={false}
               title="BookBuster"
-              description="Bookbuster es una librería en la cual puedes registrarte como usuario para poder comprar libros tanto nuevos como usados, audiolibros y e-pub. Además la idea principal es que pueda generarse una comunidad entre los apacionados por la lectura, por lo que se puede dejar reseñas de los libros, dejar alguna cita que como lector te haya marcado o gustado y a su vez puedes dejar comentarios y likes en las reseñas y citas de otros lectores. También puedes guardar tus libros favoritos o por leer en distintas estanterías."
+              description="Bookbuster es una librería en la cual puedes registrarte como usuario para poder comprar libros tanto nuevos como usados, audiolibros y e-pub. Además la idea principal es que pueda generarse una comunidad entre los apasionados por la lectura, por lo que se puede dejar reseñas de los libros, dejar alguna cita que como lector te haya marcado o gustado y a su vez puedes dejar comentarios y likes en las reseñas y citas de otros lectores. También puedes guardar tus libros favoritos o por leer en distintas estanterías."
               ghLink="https://github.com/bookbuster-ar/web-app-backend"
               demoLink="https://bookbuster-ar.vercel.app/"
             />
