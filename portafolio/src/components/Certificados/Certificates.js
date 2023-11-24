@@ -7,6 +7,7 @@ import TAHenry from '../../Assets/Certificates/TA Henry.jpg';
 import MasterSQL from '../../Assets/Certificates/Master SQL.jpg';
 import SQLavanzado from '../../Assets/Certificates/SQL avanzado.jpg';
 import POOTesters from '../../Assets/Certificates/programacion para testers.jpg';
+import postman from "../../Assets/Certificates/Postman.jpg"
 import serverless from '../../Assets/Certificates/serverless.jpg';
 import powerSkills from '../../Assets/Certificates/5 power skills.jpg';
 import designSprints from '../../Assets/Certificates/validar mi idea en 5 dias.jpg';
@@ -94,6 +95,21 @@ function Certificates() {
                 isBlog={false}
                 title='Certificate of the course "Object Oriented Programming for Testers" on Udemy '
                 description="Certificación en 'Programación para Testers' en Udemy. Adquirí habilidades clave, desde los lenguajes más populares hasta principios de Programación Orientada a Objetos y el uso profesional de Source Control Management con GitHub."
+              />
+            </a>
+          </Col>
+
+          <Col md={4} className='project-card'>
+            <a
+              href='https://udemy-certificate.s3.amazonaws.com/image/UC-119c8c34-77da-45fd-ba8f-e20cb7141d6c.jpg'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <CertificateCards
+                imgPath={postman}
+                isBlog={false}
+                title='Certificate of the course "Postman para API e integraciones" on Udemy '
+                description="Certificado en el curso completo de Postman en Udemy. Adquirí habilidades clave para manejar solicitudes HTTP, autenticación, y documentación de APIs con Postman. Desde peticiones básicas hasta avanzadas, aprendí a trabajar con headers, variables globales, y a automatizar pruebas con scripts. Exploré funciones avanzadas, creé mocks, y ejecuté colecciones desde la terminal con la librería Newman. Este curso, enfocado en la aplicación práctica, me ha capacitado para destacar en entornos tecnológicos y mejorar la eficiencia en pruebas y automatización de APIs"
               />
             </a>
           </Col>
