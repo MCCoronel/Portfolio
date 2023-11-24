@@ -6,11 +6,10 @@ import FullStack from '../../Assets/Certificates/Full Stack Henry.jpg';
 import TAHenry from '../../Assets/Certificates/TA Henry.jpg';
 import MasterSQL from '../../Assets/Certificates/Master SQL.jpg';
 import SQLavanzado from '../../Assets/Certificates/SQL avanzado.jpg';
-import POOTesters from "../../Assets/Certificates/programacion para testers.jpg";
-import serverless from "../../Assets/Certificates/serverless.jpg";
-import powerSkills from "../../Assets/Certificates/5 power skills.jpg"
-import designSprints from "../../Assets/Certificates/validar mi idea en 5 dias.jpg"
-
+import POOTesters from '../../Assets/Certificates/programacion para testers.jpg';
+import serverless from '../../Assets/Certificates/serverless.jpg';
+import powerSkills from '../../Assets/Certificates/5 power skills.jpg';
+import designSprints from '../../Assets/Certificates/validar mi idea en 5 dias.jpg';
 
 function Certificates() {
   return (
@@ -56,33 +55,31 @@ function Certificates() {
           </Col>
 
           <Col md={4} className='project-card'>
-          
-          <a
+            <a
               href='https://udemy-certificate.s3.amazonaws.com/image/UC-830f48d0-dff2-43f0-9d76-51102ceb6b27.jpg'
               target='_blank'
               rel='noopener noreferrer'
             >
-            <CertificateCards
-              imgPath={MasterSQL}
-              isBlog={false}
-              title='Certificate of the course "Master SQL" provided by Udemy and Cerveceria Quilmes'
-              description='"Master SQL Server" en Udemy, donde adquirí habilidades avanzadas en el manejo y administración de bases de datos con SQL Server. A lo largo del curso, exploré conceptos clave, técnicas avanzadas y prácticas recomendadas para optimizar el rendimiento de bases de datos. Este logro refleja mi compromiso con la maestría en SQL Server y mi capacidad para aplicar eficazmente estos conocimientos en proyectos prácticos'
-            />
+              <CertificateCards
+                imgPath={MasterSQL}
+                isBlog={false}
+                title='Certificate of the course "Master SQL" provided by Udemy and Cerveceria Quilmes'
+                description='"Master SQL Server" en Udemy, donde adquirí habilidades avanzadas en el manejo y administración de bases de datos con SQL Server. A lo largo del curso, exploré conceptos clave, técnicas avanzadas y prácticas recomendadas para optimizar el rendimiento de bases de datos. Este logro refleja mi compromiso con la maestría en SQL Server y mi capacidad para aplicar eficazmente estos conocimientos en proyectos prácticos'
+              />
             </a>
           </Col>
           <Col md={4} className='project-card'>
-          
-          <a
+            <a
               href='https://udemy-certificate.s3.amazonaws.com/image/UC-a3002d44-7ff0-49eb-8e66-646b248cb0bc.jpg'
               target='_blank'
               rel='noopener noreferrer'
             >
-            <CertificateCards
-              imgPath={SQLavanzado}
-              isBlog={false}
-              title="Certificate of the course 'SQL Avanzado' provided by Udemy and Cerveceria Quilmes"
-              description='Certificación obtenida en el curso "SQL: Programación Avanzada" en Udemy. A través de este curso, he perfeccionado mis habilidades en programación SQL, abordando conceptos avanzados y estrategias para resolver problemas complejos de bases de datos. La experiencia adquirida aquí se traduce en una sólida capacidad para diseñar consultas eficientes y optimizar el rendimiento de bases de datos, consolidando mi destreza en el manejo avanzado de SQL.'
-            />
+              <CertificateCards
+                imgPath={SQLavanzado}
+                isBlog={false}
+                title="Certificate of the course 'SQL Avanzado' provided by Udemy and Cerveceria Quilmes"
+                description='Certificación obtenida en el curso "SQL: Programación Avanzada" en Udemy. A través de este curso, he perfeccionado mis habilidades en programación SQL, abordando conceptos avanzados y estrategias para resolver problemas complejos de bases de datos. La experiencia adquirida aquí se traduce en una sólida capacidad para diseñar consultas eficientes y optimizar el rendimiento de bases de datos, consolidando mi destreza en el manejo avanzado de SQL.'
+              />
             </a>
           </Col>
 
@@ -145,7 +142,6 @@ function Certificates() {
               />
             </a>
           </Col>
-
         </Row>
       </Container>
     </Container>
