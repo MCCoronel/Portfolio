@@ -4,6 +4,7 @@ import { FaHtml5, FaCss3Alt } from 'react-icons/fa';
 import { DiJavascript1, DiReact, DiNodejs } from 'react-icons/di';
 import { SiPostgresql , SiMysql, SiRedux} from 'react-icons/si';
 
+
 function Techstack() {
   return (
     <Row style={{ justifyContent: 'center', paddingBottom: '50px' }}>
