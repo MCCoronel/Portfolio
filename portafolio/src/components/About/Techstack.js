@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
-import { FaHtml5, FaCss3Alt } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaBootstrap } from 'react-icons/fa';
 import { DiJavascript1, DiReact, DiNodejs } from 'react-icons/di';
 import {
   SiPostgresql,
@@ -36,7 +36,11 @@ function Techstack() {
       <Col xs={4} md={2} className='tech-icons' data-tip='MongoDB'>
         <SiMongodb />
       </Col>
-      <Col xs={4} md={2} className='tech-icons d-flex align-items-center justify-content-center'>
+      <Col
+        xs={4}
+        md={2}
+        className='tech-icons d-flex align-items-center justify-content-center'
+      >
         <p style={{ fontSize: '45px' }} data-tip='Express.js'>
           Express.js
         </p>
@@ -52,6 +56,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className='tech-icons' data-tip='CSS3'>
         <FaCss3Alt />
+      </Col>
+      <Col xs={4} md={2} className='tech-icons' data-tip='Bootstrap'>
+        <FaBootstrap />
       </Col>
 
       {/* Contenedor de tooltip personalizado */}

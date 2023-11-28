@@ -28,13 +28,16 @@ function Home2() {
               </span>
             </h1>
             <p className='home-about-body'>
-              A medidados del <span className='purple'> 2022</span>, decidi incursionar en el mundo de la tecnologia de forma
-              autodidacta, un mundo que hace mucho me llamaba la atencion,
-              principalmente el mundo de la <span className='purple'>programacion y analisis de datos</span>. En
-              el <span className='purple'>2023</span>, amplié aún más mis conocimientos al unirme a Henry, donde
-              cursé un programa de estudio intensivo de 4 meses que me permitió
-              adquirir habilidades avanzadas en desarrollo web y otras
-              disciplinas relacionadas con la tecnología.
+              A medidados del <span className='purple'> 2022</span>, decidi
+              incursionar en el mundo de la tecnologia de forma autodidacta, un
+              mundo que hace mucho me llamaba la atencion, principalmente el
+              mundo de la{' '}
+              <span className='purple'>programacion y analisis de datos</span>.
+              En el <span className='purple'>2023</span>, amplié aún más mis
+              conocimientos al unirme a Henry, donde cursé un programa de
+              estudio intensivo de 4 meses que me permitió adquirir habilidades
+              avanzadas en desarrollo web y otras disciplinas relacionadas con
+              la tecnología.
               <br />
               <br />
               Domino tecnologias como
@@ -46,9 +49,11 @@ function Home2() {
                 , entre otros que se encuentran en la seccion{' '}
                 <Link to={'/about'} className='purple'>
                   Sobre mi
-                </Link> o adjuntadas en mi <Link to={'/CV'} className='purple'>
+                </Link>{' '}
+                o adjuntadas en mi{' '}
+                <Link to={'/CV'} className='purple'>
                   CV
-                </Link> 
+                </Link>
               </i>
               <br />
               <br />
