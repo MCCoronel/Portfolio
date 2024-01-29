@@ -6,14 +6,22 @@ import {
   SiSlack,
   SiVercel,
   SiInsomnia,
+  SiPowerbi,
+  SiPycharm
 } from "react-icons/si";
 import ReactTooltip from 'react-tooltip';
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons" data-tip="Power BI">
+        <SiPowerbi />
+      </Col>
       <Col xs={4} md={2} className="tech-icons" data-tip="Visual Studio Code">
         <SiVisualstudiocode />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" data-tip="PyCharm">
+        <SiPycharm />
       </Col>
       <Col xs={4} md={2} className="tech-icons" data-tip="Postman">
         <SiPostman />

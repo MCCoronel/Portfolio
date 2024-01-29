@@ -60,7 +60,7 @@ function Home2() {
               Mi campo de interes principalmente es el area de &nbsp;
               <i>
                 <b className='purple'>
-                  Desarrollo Backend y manejo de Bases de datos
+                  Desarrollo Backend y analisis de datos
                 </b>
               </i>
               <br />

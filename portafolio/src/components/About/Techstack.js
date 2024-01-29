@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
-import { FaHtml5, FaCss3Alt, FaBootstrap } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaBootstrap, FaPython} from 'react-icons/fa';
 import { DiJavascript1, DiReact, DiNodejs } from 'react-icons/di';
 import {
   SiPostgresql,
@@ -15,6 +15,9 @@ import ReactTooltip from 'react-tooltip';
 function Techstack() {
   return (
     <Row style={{ justifyContent: 'center', paddingBottom: '50px' }}>
+      <Col xs={4} md={2} className='tech-icons' data-tip='Python'>
+        <FaPython />
+      </Col>
       <Col xs={4} md={2} className='tech-icons' data-tip='JavaScript'>
         <DiJavascript1 />
       </Col>

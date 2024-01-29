@@ -11,6 +11,7 @@ import postman from "../../Assets/Certificates/Postman.jpg"
 import serverless from '../../Assets/Certificates/serverless.jpg';
 import powerSkills from '../../Assets/Certificates/5 power skills.jpg';
 import designSprints from '../../Assets/Certificates/validar mi idea en 5 dias.jpg';
+import data from '../../Assets/Certificates/data Quilmes.png';
 
 function Certificates() {
   return (
@@ -50,7 +51,22 @@ function Certificates() {
                 imgPath={TAHenry}
                 isBlog={false}
                 title='Certificate Teaching Assistant at Henry'
-                description='Como Teaching Assistant en Henry, lideré la coordinación y adaptación del grupo de estudiantes, proporcionando orientación en los primeros pasos, resolviendo dudas y fomentando la colaboración en ejercicios. Contribuí con ideas para mejorar los procesos del Bootcamp y promoví la cohesión grupal, creando una comunidad sólida y apoyando el éxito académico de los estudiantes'
+                description='Certificación obtenida tras completar exitosamente la formación intensiva proporcionada por Cervecería Quilmes, una oportunidad otorgada gracias a una beca que me fue conferida. Durante este riguroso programa, me sumergí en el ámbito de Data Analytics, adquiriendo conocimientos especializados en tecnologías fundamentales como SQL y PowerBI.'
+              />
+            </a>
+          </Col>
+
+          <Col md={4} className='project-card'>
+            <a
+              href=' https://certificates.soyhenry.com/new-cert?id=667823a8f40c4fd963105c1cf15e4e5d0c8ceafc95bdf7e86779e0d975603d0b'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <CertificateCards
+                imgPath={data}
+                isBlog={false}
+                title='Certificacion Data analytics'
+                description='Certificación obtenida tras completar exitosamente la formación intensiva proporcionada por Cervecería Quilmes, una oportunidad otorgada gracias a una beca que me fue conferida. Durante este programa, me sumergí en el ámbito de Data Analytics, adquiriendo conocimientos especializados en tecnologías fundamentales como SQL y PowerBI.'
               />
             </a>
           </Col>
