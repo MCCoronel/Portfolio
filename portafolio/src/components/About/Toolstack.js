@@ -9,6 +9,7 @@ import {
   SiPowerbi,
   SiPycharm
 } from "react-icons/si";
+import { RiFileExcel2Line } from "react-icons/ri";
 import ReactTooltip from 'react-tooltip';
 
 function Toolstack() {
@@ -22,6 +23,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons" data-tip="PyCharm">
         <SiPycharm />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" data-tip="Excel">
+        <RiFileExcel2Line />
       </Col>
       <Col xs={4} md={2} className="tech-icons" data-tip="Postman">
         <SiPostman />
