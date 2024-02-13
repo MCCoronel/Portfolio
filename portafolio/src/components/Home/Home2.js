@@ -30,12 +30,12 @@ function Home2() {
             <p className='home-about-body'>
               A medidados del <span className='purple'> 2022</span>, decidi
               incursionar en el mundo de la tecnologia de forma autodidacta, un
-              mundo que hace mucho me llamaba la atencion, principalmente el
-              mundo de la{' '}
-              <span className='purple'>programacion y analisis de datos</span>.
+              ambito que hace mucho me gustaba, principalmente
+              la{' '}
+              <span className='purple'>programacion</span>.
               En el <span className='purple'>2023</span>, amplié aún más mis
               conocimientos al unirme a Henry, donde cursé un programa de
-              estudio intensivo de 4 meses que me permitió adquirir habilidades
+              estudio intensivo que me permitió adquirir habilidades
               avanzadas en desarrollo web y otras disciplinas relacionadas con
               la tecnología.
               <br />
@@ -44,7 +44,7 @@ function Home2() {
               <i>
                 <b className='purple'>
                   {' '}
-                  Javascript, Node.js, Express, SQL, React, HTML, CSS
+                  Javascript,Python, Node.js, Express, SQL, React, HTML, CSS
                 </b>
                 , entre otros que se encuentran en la seccion{' '}
                 <Link to={'/about'} className='purple'>
@@ -60,12 +60,12 @@ function Home2() {
               Mi campo de interes principalmente es el area de &nbsp;
               <i>
                 <b className='purple'>
-                  Desarrollo Backend y analisis de datos
+                  Desarrollo Backend y el analisis de datos
                 </b>
               </i>
               <br />
               <br />
-              Soy una persona <b className='purple'>curiosa</b> y con{' '}
+              Soy una persona <b className='purple'>curiosa, con pensamiento analitico</b> y {' '}
               <b className='purple'>gran facilidad de adaptación</b> lo cual me
               lleva a especializarme cada vez más en este campo de la
               tecnología.

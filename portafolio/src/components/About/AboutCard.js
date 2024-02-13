@@ -9,29 +9,33 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Bienvenido a esta seccion, me llamo <span className="purple"> Maria Celeste </span>
-            soy de <span className="purple"> Santiago del Estero, Argentina.</span>
+            soy de Santiago del Estero pero actualmente estoy residiendo en <span className="purple">Cordoba.</span>
             <br /> 
             <br />
-            Actualmente estoy en busca de <span className="purple">mi primer trabajo</span> en el <span className="purple">mundo IT</span>, mientras tanto, sigo capacitandome tanto en <span className="purple">Data Analytics</span>, como en otras tecnologias relacionadas al desarrollo <span className="purple">Backend y Frontend</span>.
+            En cuanto a mi <span className="purple">experiencia laboral</span>, trabaje como <span className="purple">Desarrolladora Backend</span> en la empresa BookBuster y como <span className="purple">Teaching Assistant Full Stack</span> en Henry Bootcamp.
+
             <br />
             <br />
-            Además de codear, ¡hay otras actividades que me encanta hacer!
+            Además de codear, ¡hay otras actividades que me encantan!
           </p>
           <ul>
           <li className="about-activity">
-              <ImPointRight /> Soy una estudiante avanzada de Ingenieria en Alimentos, Actualmente desarrollando mi tesis
+              <ImPointRight /> Soy una estudiante avanzada de Ingenieria en Alimentos, actualmente desarrollando mi tesis.
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Me encanta el analisis de datos.
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Aprender cosas nuevas constantemente.
             </li>
           <li className="about-activity">
-              <ImPointRight /> Conocer nuevas personas, me encanta el trabajo en equipo
+              <ImPointRight /> Conocer nuevas personas, disfruto del trabajo en equipo.
             </li>
             <li className="about-activity">
-              <ImPointRight /> Distintos deportes
+              <ImPointRight /> Distintos deportes.
             </li>
             <li className="about-activity">
-              <ImPointRight /> Viajar
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Aprender cosas nuevas constantemente
+              <ImPointRight /> Viajar.
             </li>
           </ul>
         </blockquote>

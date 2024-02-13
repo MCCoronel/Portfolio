@@ -9,6 +9,8 @@ import {
   SiSwagger,
   SiMongodb,
   SiJest,
+  SiGraphql,
+  SiApollographql
 } from 'react-icons/si';
 import ReactTooltip from 'react-tooltip';
 
@@ -53,6 +55,12 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className='tech-icons' data-tip='Jest'>
         <SiJest />
+      </Col>
+      <Col xs={4} md={2} className='tech-icons' data-tip='GraphQL'>
+        <SiGraphql />
+      </Col>
+      <Col xs={4} md={2} className='tech-icons' data-tip='Apollo Server'>
+        <SiApollographql />
       </Col>
       <Col xs={4} md={2} className='tech-icons' data-tip='HTML5'>
         <FaHtml5 />
