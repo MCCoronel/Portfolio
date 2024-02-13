@@ -19,7 +19,7 @@ function AboutCard() {
           </p>
           <ul>
           <li className="about-activity">
-              <ImPointRight /> Soy una estudiante avanzada de Ingenieria en Alimentos, me falta un par de materias y la tesis
+              <ImPointRight /> Soy una estudiante avanzada de Ingenieria en Alimentos, Actualmente desarrollando mi tesis
             </li>
           <li className="about-activity">
               <ImPointRight /> Conocer nuevas personas, me encanta el trabajo en equipo

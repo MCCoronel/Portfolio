@@ -72,7 +72,7 @@ function Home2() {
               <br />
               <br />
               <p>
-                Creo que mi{' '}
+                Considero que mi{' '}
                 <b className='purple'> pasión por el constante aprendizaje</b>{' '}
                 puede contribuir significativamente en{' '}
                 <b className='purple'>cualquier entorno</b>.

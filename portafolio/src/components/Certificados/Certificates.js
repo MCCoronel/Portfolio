@@ -12,7 +12,7 @@ import serverless from '../../Assets/Certificates/serverless.jpg';
 import powerSkills from '../../Assets/Certificates/5 power skills.jpg';
 import designSprints from '../../Assets/Certificates/validar mi idea en 5 dias.jpg';
 import data from '../../Assets/Certificates/data Quilmes.png';
-import dataCoder from '../../Assets/Certificates/Data analyticss.png';
+import dataCoder from '../../Assets/Certificates/Data analyticss.jpg';
 
 function Certificates() {
   return (
@@ -59,7 +59,7 @@ function Certificates() {
 
           <Col md={4} className='project-card'>
             <a
-              href=' https://certificates.soyhenry.com/new-cert?id=667823a8f40c4fd963105c1cf15e4e5d0c8ceafc95bdf7e86779e0d975603d0b'
+              href='https://www.coderhouse.com/certificados/65c738f43213f7d1767aeec5?lang=es'
               target='_blank'
               rel='noopener noreferrer'
             >
