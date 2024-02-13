@@ -12,6 +12,7 @@ import serverless from '../../Assets/Certificates/serverless.jpg';
 import powerSkills from '../../Assets/Certificates/5 power skills.jpg';
 import designSprints from '../../Assets/Certificates/validar mi idea en 5 dias.jpg';
 import data from '../../Assets/Certificates/data Quilmes.png';
+import dataCoder from '../../Assets/Certificates/Data analyticss.png';
 
 function Certificates() {
   return (
@@ -52,6 +53,21 @@ function Certificates() {
                 isBlog={false}
                 title='Certificate Teaching Assistant at Henry'
                 description='Certificación obtenida tras completar exitosamente la formación intensiva proporcionada por Cervecería Quilmes, una oportunidad otorgada gracias a una beca que me fue conferida. Durante este riguroso programa, me sumergí en el ámbito de Data Analytics, adquiriendo conocimientos especializados en tecnologías fundamentales como SQL y PowerBI.'
+              />
+            </a>
+          </Col>
+
+          <Col md={4} className='project-card'>
+            <a
+              href=' https://certificates.soyhenry.com/new-cert?id=667823a8f40c4fd963105c1cf15e4e5d0c8ceafc95bdf7e86779e0d975603d0b'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <CertificateCards
+                imgPath={dataCoder}
+                isBlog={false}
+                title='Certificacion Curso Data analytics'
+                description='Durante este curso intensivo, adquirí los fundamentos de las bases de datos y apliqué habilidades en SQL para manipular datos relacionales. Diseñé tableros efectivos en Power BI, empleando DAX, Lenguaje M y Power Query para análisis detallados y presentación clara de información. Estoy listo para proyectos de data analytics de principio a fin.'
               />
             </a>
           </Col>
