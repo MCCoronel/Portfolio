@@ -52,7 +52,7 @@ function Certificates() {
                 imgPath={TAHenry}
                 isBlog={false}
                 title='Certificate Teaching Assistant at Henry'
-                description='Certificación obtenida tras completar exitosamente la formación intensiva proporcionada por Cervecería Quilmes, una oportunidad otorgada gracias a una beca que me fue conferida. Durante este riguroso programa, me sumergí en el ámbito de Data Analytics, adquiriendo conocimientos especializados en tecnologías fundamentales como SQL y PowerBI.'
+                description='Certificación obtenida tras completar exitosamente la mi ciclo como T.A donde coordine a un grupo de estudiantes para lograr la integración al equipo de estudio, asistí la resolución de ejercicios y promoví la colaboración grupal (Pair Programming). Propuse ideas para la mejora de los procesos del Bootcamp, incluyendo sugerencias para optimizar la recopilación y análisis de datos de los estudiantes para evaluar su progreso y rendimiento en el curso.'
               />
             </a>
           </Col>
